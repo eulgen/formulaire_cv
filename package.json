@@ -1,0 +1,14 @@
+{
+  "name": "formulaire_cv",
+  "version": "1.0.0",
+  "description": "le formulaire de mon CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brice",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
