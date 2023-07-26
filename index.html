@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire_CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="d-flex flex-row" id="all">
+        <div class="container text-center" id="dashboard">
+            <div class="title_form">
+                <div id="formulaire">Dashboard</div>
+            </div>
+            
+            <div class="col-md"  id="board">
+                <div class="list-group" id="list-tab" style="border-radius: 0px;">
+                    <div class="list-group-item list-group-item-action list-group-item-dark icon-link" data-bs-toggle="list">
+                        <img src="iconfinder-3-avatar-2754579_120516.png" alt=""> 
+                        Coordonnées 
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-dark icon-link" data-bs-toggle="list">
+                        <img src="2799208-bag-business_99786.png" alt="">
+                        Expérience
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-dark icon-link" data-bs-toggle="list">
+                        <img src="graduationcap_106629.png" alt="">
+                        Etudes
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-dark icon-link"  data-bs-toggle="list">
+                        <img src="2730389-brain-divide-inkcontober-sains_112694.png" alt="">
+                        Compétences
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-dark icon-link" data-bs-toggle="list">
+                    <img src="world_earth_planet_globe_material_school_subject_studies_social_geography_icon_230356.png" alt="">
+                        Formations
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-dark icon-link" data-bs-toggle="list">
+                        <img src="laptop_icon-icons.com_66540.png" alt="">
+                        Informatique
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-dark icon-link" data-bs-toggle="list">
+                        <img src="seo_goals_16325.png" alt="">
+                            Centre d'intérets
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-dark icon-link" data-bs-toggle="list">
+                    <img src="1492608019-18-google-translate-text-language-translation_83386.png" alt="">
+                        Langues
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="d-flex flex-md-column" id="sect_coord">
+            <div id="coord">
+                Coordonnées
+            </div>
+
+            <div class="d-flex flex-md-column" id="all_cord">
+                <div class="form-floating mb-3 mx-5">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <label id="l_email" for="email">Adresse Email</label>
+                    <div class="invalid-feedback">
+                        Le champ est vide  
+                    </div>
+                </div>
+
+                <div class="form-floating mb-3 mx-5">
+                    <input type="text" class="form-control" id="loca" placeholder="Douala,Logbaba">
+                    <label id="l_loc" for="loca">Localisation</label>
+                    <div class="invalid-feedback">
+                        Le champ est vide  
+                    </div>
+                </div>
+
+                <div class="form-floating mb-3 mx-5">
+                    <input type="text" class="form-control" id="perm" placeholder="Permis A">
+                    <label id="l_perm" for="loca">Permis de conduire</label>
+                </div>
+
+                <div class="form-floating mb-3 mx-5">
+                    <input type="date" class="form-control isvalid" id="date" placeholder="27/05/1998">
+                    <label id="l_date" for="date">Date de naissance</label>
+                </div>
+
+                <div class="form-floating mb-3 mx-5">
+                    <select class="form-select" id="social" aria-label="Floating label select example">
+                        <option selected>Célibataire</option>
+                        <option value="1">En Couple</option>
+                        <option value="2">Divorcé</option>
+                    </select>
+                    <label for="floatingSelect" id="l_social">Statut Social</label>
+                </div>
+
+                <div class="form-floating mb-3 mx-5">
+                    <input type="text" class="form-control" id="soc" placeholder="+237657997770">
+                    <label id="l_soc" for="soc">Numéro de Téléphone </label>
+                    <div class="invalid-feedback">
+                        Le champ est vide  
+                    </div>
+                </div>
+
+                <div class="form-floating mb-3 mx-5">
+                    <select class="form-select" id="mode" aria-label="Floating label select example">
+                        <option selected>Télétravail</option>
+                        <option value="1">Présidentiel</option>
+                    </select>
+                    <label for="floatingSelect" id="l_mode">Mode de travail</label>
+                </div>
+
+                <div id="contain_butt" class="d-flex flex-column-reverse">
+                    <div class="container text-center" id="button">
+                        <button type="button" class="btn btn-primary icon-link icon-link-hover" href="#" id="suivant">
+                            Suivant
+                            <?xml version="1.0" ?><svg height="48" class="bi" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M17.17 32.92l9.17-9.17-9.17-9.17 2.83-2.83 12 12-12 12z"/><path d="M0-.25h48v48h-48z" fill="none"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

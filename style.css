@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#formulaire{
+    width: 100%;
+    height: 20vh;
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+}
+
+#dashboard{
+    width: 30%;
+    height: 900px;
+    background-color: rgb(33, 34, 36);
+}
+
+#sect_coord{
+    width: 70%;
+    height: 900px;
+}
+
+#coord{
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    font-size: 5vw;
+    font-family: monospace;
+    box-sizing: border-box;
+    /*background-color: red;*/
+    font-weight: bold;
+}
+
+#email,#loca,#perm,#social,#date,#soc,#mode{
+    height: 1vw;
+    font-size: 1vw;
+}
+
+#l_email,#l_loc,#l_perm,#l_social,#l_date,#l_soc,#l_mode{
+    font-size: 1vw;
+}
+
+#contain_butt{
+
+     /* background-color: red;  */
+    margin-top: 10%;
+}
+
+#suivant{
+    font-size: 2.5vw;
+}
+/*@media (max-width:650px){
+    #all{
+        flex-direction: column;
+    }
+    #dashboard{
+        width: 100%;
+        height: 900px;
+    }
+
+    #board{
+        height: 900px;
+    }
+}*/
